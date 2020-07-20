@@ -1,0 +1,142 @@
+
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
+/* css variables */ 
+@import url(./partials/_variables.css);
+/* import global styling */ 
+@import url(./partials/_global.css);
+
+
+/* start navigation */ 
+.header_area .main-menu .header-image{
+    padding-top: 0.5rem;
+}
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 1rem 0 5rem;
+}
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem ;
+}
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/* end navigation */ 
+.site-main .content .para{
+    text-align: justify;
+    padding: 2rem 2rem;
+}
+.site-main .content .para .content-li{
+    text-align: left;
+}
+
+
+/* Start About Area */ 
+.site-main .about-area{
+    padding: 8rem 5rem;
+    background: url(./img/body-bg.png) no-repeat;
+}
+/* End About Area */ 
+
+/* Services Area */ 
+
+.site-main .services-area{
+    padding: 2rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 4rem;
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+}
+.site-main .services-area .para{
+    text-align: justify;
+}
+.site-main .services-area .thick{
+    font-weight: bold;
+    text-align: justify;
+}
+/* End Services Area */ 
+
+
+/* Project Area */ 
+.site-main .project-area{
+    padding: 1rem 0;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal 400 15px/12px var(--roboto);
+    font-weight: bold;
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #4458dc);
+}
+
+
+/* End Project Area */ 
+
+
+/* About Me */ 
+
+.site-main .about-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+}
+
+.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span{
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}
+
+
+
+/* End About Me */ 
+
+/* Subscribe me */ 
+
+.site-main .subscribe-us-area .subscribe{
+    background: url(../img/subscribe-bg.jpg) no-repeat;   
+    padding: 10rem 0;
+    margin: 3rem auto;
+
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title h4{
+    font: normal 700 30px/ 30px var(--roboto);
+    color: whitesmoke;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title p{
+    color: whitesmoke;
+    padding: 1rem 4rem;
+}
+
+
+/* End subscribe me */ 
+
+/* Footer Area */ 
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+}
+
+
+/* End Footer */ 
